@@ -2,7 +2,7 @@
 
 A quick guide to my Project ->
 
-<img src ="/image.webp">
+<img src ="/img.webp">
 
 ## Tools Used
 
