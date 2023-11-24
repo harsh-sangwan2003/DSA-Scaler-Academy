@@ -11,9 +11,12 @@ public class print_larger {
         if (a > b)
             System.out.println(a + " is larger");
 
-        else
+        else if (a < b)
             System.out.println(b + " is larger");
-        
+
+        else
+            System.out.println("Both are equal");
+
         scn.close();
     }
 }
