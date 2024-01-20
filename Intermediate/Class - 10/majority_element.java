@@ -4,21 +4,21 @@ class Solution {
 
         int ele = A[0], count = 1;
 
-        for(int i=1; i<A.length; i++){
+        for (int i = 1; i < A.length; i++) {
 
-            if(count==0){
+            if (count == 0) {
 
                 ele = A[i];
                 count++;
             }
 
-            else{
+            else {
 
-                if(A[i]==ele)
-                count++;
+                if (A[i] == ele)
+                    count++;
 
                 else
-                count--;
+                    count--;
             }
         }
 
