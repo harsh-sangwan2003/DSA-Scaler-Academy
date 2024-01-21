@@ -1,4 +1,5 @@
-class Solution {
+public class length_of_cons_one {
+    
     public int solve(String A) {
 
         int countOne = 0, max = 0;
