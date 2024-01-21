@@ -1,4 +1,5 @@
-class Solution {
+public class majority_element {
+
     // DO NOT MODIFY THE ARGUMENTS WITH "final" PREFIX. IT IS READ ONLY
     public int majorityElement(final int[] A) {
 

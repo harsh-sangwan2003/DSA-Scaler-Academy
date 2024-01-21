@@ -1,4 +1,5 @@
-class Solution {
+public class row_column_zero {
+    
     public int[][] solve(int[][] A) {
 
         for (int i = 0; i < A.length; i++) {

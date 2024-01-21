@@ -1,4 +1,5 @@
-class Solution {
+public class majority_element2 {
+
     public int repeatedNumber(int[] nums) {
 
         if (nums == null || nums.length == 0) {
