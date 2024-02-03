@@ -30,7 +30,7 @@ public class merge_overlapping_intervals {
 
         for (Interval interval : intervals) {
 
-            int current_st = current.start, current_et = current.end;
+            int current_et = current.end;
             int next_st = interval.start, next_et = interval.end;
 
             if (next_st <= current_et)
