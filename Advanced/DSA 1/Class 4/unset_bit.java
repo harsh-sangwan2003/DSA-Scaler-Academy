@@ -1,4 +1,4 @@
-public class nuset_bit {
+public class unset_bit {
 
     private boolean checkBit(int a, int pos){
 
