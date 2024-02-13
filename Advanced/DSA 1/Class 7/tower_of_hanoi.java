@@ -1,4 +1,7 @@
-public class Solution {
+import java.util.ArrayList;
+
+public class tower_of_hanoi {
+    
     public int[][] towerOfHanoi(int A) {
 
         ArrayList<int[]> res = new ArrayList<>();
