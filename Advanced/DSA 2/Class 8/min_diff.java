@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class min_diff {
 
     public int solve(int A, int B, int[][] C) {
-        int x;
+        
         int ans = 1000000000; // Initialize answer as a large number
         int lb;
         for (int i = 0; i < A; i++) {
