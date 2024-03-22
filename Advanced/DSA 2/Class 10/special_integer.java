@@ -30,7 +30,7 @@ public class special_integer {
     // Checks if there is a subarray of size s whose sum is greater than sm in
     // linear time
     int check(int s, long[] arr, long sm) {
-        int flag = 0;
+        
         for (int i = s - 1; i < arr.length; ++i) {
             if (i == s - 1) {
                 if (arr[i] > sm)

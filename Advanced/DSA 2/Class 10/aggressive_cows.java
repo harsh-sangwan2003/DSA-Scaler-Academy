@@ -15,7 +15,7 @@ public class aggressive_cows {
     }
 
     public int solve(int[] A, int B) {
-        int n = A.length;
+
         Arrays.sort(A);
         int l = 1, r = 1000 * 1000 * 1000;
         int ans = 1;
