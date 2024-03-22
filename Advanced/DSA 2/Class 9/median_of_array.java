@@ -1,4 +1,7 @@
-public class Solution {
+import java.util.List;
+
+public class median_of_array {
+
     // DO NOT MODIFY BOTH THE LISTS
     public double findMedianSortedArrays(final List<Integer> nums1, final List<Integer> nums2) {
         if (nums2.size() < nums1.size())
